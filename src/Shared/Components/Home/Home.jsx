@@ -47,7 +47,8 @@ function Home() {
                   The Journal covers following areas
                 </h1>
               </div>
-              <div className="grid grid-cols-1 lg:grid-cols-3  md:grid-cols-3 border-2 border-[#D3A66F] p-2   w-full rounded-xl justify-center mx-auto">
+              <div className="border-2  border-[#D3A66F] p-2 ">
+              <div className="grid grid-cols-1 lg:grid-cols-3  md:grid-cols-3   w-full rounded-xl justify-center  max-w-[75rem] trext-start mx-auto  ">
                 {["Real-Time Embedded IoT", "Embedded IoT Security", "MCU-based IoT", "FPGA for IoT", "Low-power IoT Devices", "RTOS in IoT", "AI in Embedded IoT", "Wireless IoT Systems", "IoT-enabled Sensors", "Smart City IoT",
                   "IoT Healthcare Systems", "Firmware for IoT", "ARM-based IoT", "IoT Edge Computing", "IoT Gateways", "Energy-efficient IoT", "Predictive IoT Maintenance", "Blockchain IoT Security", "AI-powered IoT", "Industrial IoT",
                   "IoT in Vehicles", "Cloud IoT Systems", "Smart Surveillance IoT", "5G in IoT", "IoT Smart Homes", "IoT Wearables", "AI-ML in IoT", "Edge AI in IoT", "Smart Agriculture IoT", "Renewable IoT Systems",
@@ -56,11 +57,12 @@ function Home() {
                     "IoT Smart Contracts", "IoT Virtual Assistants", "Smart Grid IoT", "Retail IoT", "IoT Big Data", "AI Chatbots in IoT", "IoT Smart Sensors", "Fog Computing IoT", "IoT in Learning", "Industrial IoT (IIoT)",
                   "IoT Digital Twins", "IoT in Transport", "IoT Supply Chain", "IoT for Environment", "Blockchain in IoT", "IoT Precision Medicine", "Smart Transactions IoT", "IoT Energy Management", "Quantum IoT"
                 ].map((topics, index) => (
-                  <div key={index} className="flex items-center gap-2 mb-1  text-start">
-                    <BsDot className="flex items-center bg-[#242120] text-xs rounded-full text-[#242120] " />
-                    <h1 className="md:text-base text-sm">{topics}</h1>
+                  <div key={index} className="flex items-center gap-2 mb-1   ">
+                     <BsDot className="flex items-center bg-[#242120] text-xs rounded-full text-[#242120] " />
+                     <h1 className="md:text-base text-sm ">{topics}</h1>
                   </div>
                 ))}
+              </div>
               </div>
             </section>
             <section className="flex flex-col gap-4">
@@ -72,7 +74,7 @@ function Home() {
               <p className=" text-center">The International Journal of Embedded Systems and IoT (IJESIOT) is a multidisciplinary, peer-reviewed, open-access journal committed to publishing high-quality research on embedded systems, the Internet of Things (IoT), and their innovative applications. The journal aims to foster advancements in smart embedded technologies, real-time computing, and secure IoT solutions that drive automation, connectivity, and intelligence across various industries.</p>
               <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-5 grid-cols-1  ">
                 <div className=" border-2 border-[#D3A66F]   rounded-xl bg-[#D9D9D9]  ">
-                  <div className=" p-4 flex flex-col gap-2">
+                    <div className=" p-4 flex flex-col gap-2">
                     <div className="flex items-center gap-3">
                       <i class="fi fi-sr-check-circle flex items-center text-xl text-[#28a745]"></i>
                       <h2 className="text-[#242120] font-bold merry md:text-lg ">Open Access</h2>
