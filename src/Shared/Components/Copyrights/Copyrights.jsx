@@ -58,7 +58,6 @@ function Copyrights() {
                                     </li>
                                 </ol>
                             </p>
-
                             <div className='flex justify-between'>
                                 <div>
                                     <p className="">Date : </p>
