@@ -14,7 +14,7 @@ const HelmetComponent = ({ title }) => {
             <meta property="og:url" content="https://www.ijesiot.com/" />
             <meta property="og:image" content="https://www.ijesiot.com/assets/Images/IJESIOT.png" />
             <link rel="canonical" href="https://www.ijesiot.com/" />
-            <link rel="icon" type="image/png" href="https://www.ijesiot.com/assets/Images/Favicon.png" />
+            <link rel="icon" type="image/png" href="https://www.ijesiot.com/assets/Images/Fav.png" />
         </Helmet>
     );
 };
