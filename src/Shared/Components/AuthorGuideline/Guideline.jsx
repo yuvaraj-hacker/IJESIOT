@@ -13,7 +13,7 @@ function Guideline() {
                                 </h1>
                             </div>
                             <p className="text-justify md:text-base text-sm">
-                                The International Journal of Embedded Systems and IoT (IJESIOT) welcomes high-quality, original research contributions in the fields of embedded systems, IoT, real-time computing, and related disciplines. Authors must adhere to the following guidelines when preparing and submitting their manuscripts.
+                                The International Journal of Embedded Systems and IoT welcomes high-quality, original research contributions in the fields of embedded systems, IoT, real-time computing, and related disciplines. Authors must adhere to the following guidelines when preparing and submitting their manuscripts.
                             </p>
                         </section>
 

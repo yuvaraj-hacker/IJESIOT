@@ -13,7 +13,7 @@ function AimandScope() {
                                 </h1>
                             </div>
                             <p className="text-justify md:text-base text-sm">
-                                The International Journal of Embedded Systems and IoT (IJESIOT) aims to advance research and innovation in embedded systems and the Internet of Things (IoT) by providing a global platform for researchers, engineers, and industry professionals. The journal publishes high-quality research on embedded computing, real-time systems, IoT architectures, wireless sensor networks, cybersecurity, AI-driven automation, and industrial IoT applications. It covers topics such as low-power embedded solutions, edge and cloud computing, smart sensing, and secure communication protocols, fostering interdisciplinary collaboration to drive intelligent, efficient, and secure computing solutions. IJESIOT is committed to promoting sustainable and cutting-edge technologies that enhance connectivity, automation, and intelligence across industries, including healthcare, smart cities, automotive, and industrial automation.
+                                The International Journal of Embedded Systems and IoT aims to advance research and innovation in embedded systems and the Internet of Things (IoT) by providing a global platform for researchers, engineers, and industry professionals. The journal publishes high-quality research on embedded computing, real-time systems, IoT architectures, wireless sensor networks, cybersecurity, AI-driven automation, and industrial IoT applications. It covers topics such as low-power embedded solutions, edge and cloud computing, smart sensing, and secure communication protocols, fostering interdisciplinary collaboration to drive intelligent, efficient, and secure computing solutions. IJESIOT is committed to promoting sustainable and cutting-edge technologies that enhance connectivity, automation, and intelligence across industries, including healthcare, smart cities, automotive, and industrial automation.
                             </p>                        </section>
 
                         <section className="flex flex-col gap-4">
@@ -23,7 +23,7 @@ function AimandScope() {
                                 </h1>
                             </div>
                             <p className="text-justify md:text-base text-sm">
-                                The International Journal of Embedded Systems and IoT (IJESIOT) aims to advance research and innovation in embedded systems and the Internet of Things (IoT). The journal provides a global platform for researchers, engineers, and industry professionals to share cutting-edge developments that drive intelligent, efficient, and secure computing solutions. IJESIOT fosters interdisciplinary collaboration, bridging embedded computing, real-time processing, smart automation, and IoT-driven innovations across various domains.
+                                The International Journal of Embedded Systems and IoT aims to advance research and innovation in embedded systems and the Internet of Things (IoT). The journal provides a global platform for researchers, engineers, and industry professionals to share cutting-edge developments that drive intelligent, efficient, and secure computing solutions. IJESIOT fosters interdisciplinary collaboration, bridging embedded computing, real-time processing, smart automation, and IoT-driven innovations across various domains.
                             </p>
 
                         </section>

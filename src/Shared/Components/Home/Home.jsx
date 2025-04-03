@@ -11,7 +11,7 @@ function Home() {
               <div className="flex flex-col justify-evenly md:gap-4 gap-3">
                 <p className="text-justify md:text-base text-sm">
                   <strong className="text-[#242120] md:text-xl text-lg ">
-                    The International Journal of Embedded Systems and IoT (IJESIOT)
+                    The International Journal of Embedded Systems and IoT
                   </strong>{" "}
                   is a scholarly, peer-reviewed journal dedicated to research in embedded systems, the Internet of Things (IoT), and their applications in various domains. It aims to promote advancements in smart, energy-efficient, and secure embedded solutions, IoT architectures, real-time computing, and intelligent sensor networks.
                   The journal welcomes original research articles, reviews, and case studies that contribute to the development of innovative embedded and IoT technologies, improving connectivity, automation, and sustainability across industries.
@@ -32,7 +32,7 @@ function Home() {
                 </h1>
               </div>
               <p className="text-justify md:text-base text-sm">
-                The International Journal of Embedded Systems and IoT (IJESIOT) is a peer-reviewed, open-access journal dedicated to advancing research and innovation in embedded systems, the Internet of Things (IoT), and their real-world applications. Our mission is to promote cutting-edge research that enhances connectivity, automation, and intelligence in smart devices, enabling transformative solutions across industries such as healthcare, smart cities, industrial automation, and cybersecurity.
+                The International Journal of Embedded Systems and IoT is a peer-reviewed, open-access journal dedicated to advancing research and innovation in embedded systems, the Internet of Things (IoT), and their real-world applications. Our mission is to promote cutting-edge research that enhances connectivity, automation, and intelligence in smart devices, enabling transformative solutions across industries such as healthcare, smart cities, industrial automation, and cybersecurity.
               </p>
               <Link to='/about' className="w-fit mx-auto">
                 <button className="md:p-3 p-2 border-2 w-[170px] group flex gap-2 justify-center   md:text-base text-sm   rounded-full  border-[#D3A66F]   shadow-md hover:bg-[#242120] hover:text-white text-[#242120] duration-300 cursor-pointer">
@@ -71,7 +71,7 @@ function Home() {
                   Journal  overview
                 </h1>
               </div>
-              <p className=" text-center">The International Journal of Embedded Systems and IoT (IJESIOT) is a multidisciplinary, peer-reviewed, open-access journal committed to publishing high-quality research on embedded systems, the Internet of Things (IoT), and their innovative applications. The journal aims to foster advancements in smart embedded technologies, real-time computing, and secure IoT solutions that drive automation, connectivity, and intelligence across various industries.</p>
+              <p className=" text-center">The International Journal of Embedded Systems and IoT is a multidisciplinary, peer-reviewed, open-access journal committed to publishing high-quality research on embedded systems, the Internet of Things (IoT), and their innovative applications. The journal aims to foster advancements in smart embedded technologies, real-time computing, and secure IoT solutions that drive automation, connectivity, and intelligence across various industries.</p>
               <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-5 grid-cols-1  ">
                 <div className=" border-2 border-[#D3A66F]   rounded-xl bg-[#D9D9D9]  ">
                   <div className=" p-4 flex flex-col gap-2">
@@ -116,7 +116,7 @@ function Home() {
           <h1 className="bg-[#242120] h-[1px] w-full  "></h1>
         </section> */}
       </section>
-      
+
       <section className="bg-[#242120] text-white border-b border-b-[#D3A66F]">
         <div className="text-center flex flex-col gap-2 xl:w-1/2 mx-auto  md:px-5 px-3 py-5  ">
           <p className="  md:text-base text-sm text-justify">
