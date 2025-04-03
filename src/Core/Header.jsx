@@ -1,4 +1,4 @@
-import { Squeeze as Hamburger } from 'hamburger-react'
+import { Squash as Hamburger } from 'hamburger-react'
 import React, { useEffect, useRef, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 const Header = () => {
@@ -129,7 +129,7 @@ const Header = () => {
             <Link to="/">
               <div className="    ">
                 <div className="   text-center   ">
-                  <p className="  font-bold text-[#D3A66F] md:text-4xl" >IJESIOT</p>
+                  <p className="  font-bold text-[#D3A66F] md:text-4xl text-2xl" >IJESIOT</p>
                   {/* <img className="  p-2 font-bold text-[#242120]" src="/assets/Images/IJARTA-New.png" alt="" /> */}
                 </div>
               </div>
@@ -195,7 +195,7 @@ const Header = () => {
                   >
                     <Link
                       to={link.to}
-                      className="p-2 flex transition-all duration-300 ease-in-out text-white lg:text-base md:text-sm md:justify-center    items-center gap-2"
+                      className={`p-2 flex transition-all duration-300 ease-in-out  lg:text-base md:text-sm md:justify-center    items-center gap-2    ${isActive(link.to) ? "text-[#D3A66F]" : "text-white"}`}
                       onClick={(e) => {
                         if (link.dropdown) {
                           e.preventDefault();
@@ -209,24 +209,28 @@ const Header = () => {
                     >
                       {link.label}
                       {link.dropdown && (
-                        <i className={`fi fi-rr-arrow-down flex items-center transition-all duration-300 ease-in-out text-white ${hoveredCategory === link.label
-                          ? "bg-[#242120] rotate-180 duration-100" : ""}`}   ></i>
+                        <i
+                          className={`fi fi-rr-arrow-down flex items-center transition-all duration-300 ease-in-out
+      ${hoveredCategory === link.label ? "bg-[#242120] rotate-180 duration-100" : ""}
+                          `}
+                        ></i>
                       )}
+
                     </Link>
                     {hoveredCategory === link.label && link.dropdown && (
                       <div {...(window.innerWidth >= 768
                         ? {
-                            "data-aos": "fade-zoom-in",
-                            "data-aos-easing": "ease-in-back",
-                            "data-aos-delay": "20",
-                            "data-aos-offset": "0",
-                          }
+                          "data-aos": "fade-zoom-in",
+                          "data-aos-easing": "ease-in-back",
+                          "data-aos-delay": "20",
+                          "data-aos-offset": "0",
+                        }
                         : {})}
                         className="md:absolute left-0 top-full w-full md:bg-white border-[#D3A66F] rounded-xl  transition-all duration-300 ease-in-out opacity-100 scale-y-100 origin-top grid md:grid-cols-2 border-2 p-3 z-10"
                       >
                         {link.dropdown.map((dropdownlink) => (
                           <Link key={dropdownlink.to} to={dropdownlink.to}
-                            className="block px-4 py-2 md:text-[#242120] md:text-start   underline underline-offset-2 text-white"
+                            className="block px-4 py-2 md:text-[#242120] md:text-start md:text-base text-sm  underline underline-offset-2 text-white"
                             onClick={() => { setHoveredCategory(null); setMenuOpen(false); }}  >
                             {dropdownlink.label}
                           </Link>

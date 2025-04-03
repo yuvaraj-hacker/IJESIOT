@@ -16,10 +16,10 @@ function Home() {
                   is a scholarly, peer-reviewed journal dedicated to research in embedded systems, the Internet of Things (IoT), and their applications in various domains. It aims to promote advancements in smart, energy-efficient, and secure embedded solutions, IoT architectures, real-time computing, and intelligent sensor networks.
                   The journal welcomes original research articles, reviews, and case studies that contribute to the development of innovative embedded and IoT technologies, improving connectivity, automation, and sustainability across industries.
                 </p>
-                <a href="https://IJESIOT.com/IJESIOT/index.php/IJESIOT/about/submissions" target="_blank" rel="noopener noreferrer" className="  mx-auto      " >
-                  <button className="md:p-3 p-2    border-2 rounded-full shadow-md  md:text-base text-sm  group  border-[#D3A66F] flex gap-2 items-center bg-[#242120] text-white duration-300 cursor-pointer  ">
+                <a href="https://ijesiot.com/Ijesiot/index.php/ijesiot/about/submissions" target="_blank" rel="noopener noreferrer" className="mx-auto" >
+                  <button className=" px-6   py-3  border-2 rounded-full shadow-md  md:text-base text-sm  group  border-[#D3A66F] flex gap-2 items-center hover:bg-[#242120] hover:text-white text-[#242120] duration-300 cursor-pointer  ">
                     Submit Your Paper
-                    <i class="fi fi-ss-paper-plane flex items-center group-hover:translate-x-1 duration-300"></i>
+                    <i class="fi fi-ss-redo group-hover:translate-x-1 duration-300 "></i>
                   </button>
                 </a>
               </div>
@@ -35,7 +35,7 @@ function Home() {
                 The International Journal of Embedded Systems and IoT (IJESIOT) is a peer-reviewed, open-access journal dedicated to advancing research and innovation in embedded systems, the Internet of Things (IoT), and their real-world applications. Our mission is to promote cutting-edge research that enhances connectivity, automation, and intelligence in smart devices, enabling transformative solutions across industries such as healthcare, smart cities, industrial automation, and cybersecurity.
               </p>
               <Link to='/about' className="w-fit mx-auto">
-                <button className="md:p-3 p-2 border-2 w-[170px] group flex gap-2 justify-center   md:text-base text-sm   rounded-full  border-[#D3A66F]   shadow-md bg-[#242120] text-white duration-300 cursor-pointer">
+                <button className="md:p-3 p-2 border-2 w-[170px] group flex gap-2 justify-center   md:text-base text-sm   rounded-full  border-[#D3A66F]   shadow-md hover:bg-[#242120] hover:text-white text-[#242120] duration-300 cursor-pointer">
                   Read More
                   <i class="fi fi-ss-redo group-hover:translate-x-1 duration-300 "></i>
                 </button>
@@ -47,22 +47,22 @@ function Home() {
                   The Journal covers following areas
                 </h1>
               </div>
-              <div className="border-2  border-[#D3A66F] p-2 ">
-              <div className="grid grid-cols-1 lg:grid-cols-3  md:grid-cols-3   w-full rounded-xl justify-center  max-w-[75rem] trext-start mx-auto  ">
-                {["Real-Time Embedded IoT", "Embedded IoT Security", "MCU-based IoT", "FPGA for IoT", "Low-power IoT Devices", "RTOS in IoT", "AI in Embedded IoT", "Wireless IoT Systems", "IoT-enabled Sensors", "Smart City IoT",
-                  "IoT Healthcare Systems", "Firmware for IoT", "ARM-based IoT", "IoT Edge Computing", "IoT Gateways", "Energy-efficient IoT", "Predictive IoT Maintenance", "Blockchain IoT Security", "AI-powered IoT", "Industrial IoT",
-                  "IoT in Vehicles", "Cloud IoT Systems", "Smart Surveillance IoT", "5G in IoT", "IoT Smart Homes", "IoT Wearables", "AI-ML in IoT", "Edge AI in IoT", "Smart Agriculture IoT", "Renewable IoT Systems",
-                  "IoT Smart Grid", "IoT in Supply Chain", "IoT in Robotics", "IoT Remote Monitoring", "IoT Disaster Management", "Water Quality IoT", "Asset Tracking IoT", "Smart Manufacturing IoT", "Fleet Management IoT", "IoT Data Analytics",
-                  "Smart Parking IoT", "AI-driven IoT", "IoT Cybersecurity", "IoT Disaster Prediction", "IoT Smart Wearables", "IoT in Biomedicine", "AI in IoT Automation", "Aerospace IoT", "IoT Vision Systems", "Neural Networks in IoT",
+              <div className="border-2  border-[#D3A66F] p-2  rounded-xl">
+                <div className="grid grid-cols-1 lg:grid-cols-3  md:grid-cols-3   w-full rounded-xl justify-center  max-w-[75rem] trext-start mx-auto  ">
+                  {["Real-Time Embedded IoT", "Embedded IoT Security", "MCU-based IoT", "FPGA for IoT", "Low-power IoT Devices", "RTOS in IoT", "AI in Embedded IoT", "Wireless IoT Systems", "IoT-enabled Sensors", "Smart City IoT",
+                    "IoT Healthcare Systems", "Firmware for IoT", "ARM-based IoT", "IoT Edge Computing", "IoT Gateways", "Energy-efficient IoT", "Predictive IoT Maintenance", "Blockchain IoT Security", "AI-powered IoT", "Industrial IoT",
+                    "IoT in Vehicles", "Cloud IoT Systems", "Smart Surveillance IoT", "5G in IoT", "IoT Smart Homes", "IoT Wearables", "AI-ML in IoT", "Edge AI in IoT", "Smart Agriculture IoT", "Renewable IoT Systems",
+                    "IoT Smart Grid", "IoT in Supply Chain", "IoT in Robotics", "IoT Remote Monitoring", "IoT Disaster Management", "Water Quality IoT", "Asset Tracking IoT", "Smart Manufacturing IoT", "Fleet Management IoT", "IoT Data Analytics",
+                    "Smart Parking IoT", "AI-driven IoT", "IoT Cybersecurity", "IoT Disaster Prediction", "IoT Smart Wearables", "IoT in Biomedicine", "AI in IoT Automation", "Aerospace IoT", "IoT Vision Systems", "Neural Networks in IoT",
                     "IoT Smart Contracts", "IoT Virtual Assistants", "Smart Grid IoT", "Retail IoT", "IoT Big Data", "AI Chatbots in IoT", "IoT Smart Sensors", "Fog Computing IoT", "IoT in Learning", "Industrial IoT (IIoT)",
-                  "IoT Digital Twins", "IoT in Transport", "IoT Supply Chain", "IoT for Environment", "Blockchain in IoT", "IoT Precision Medicine", "Smart Transactions IoT", "IoT Energy Management", "Quantum IoT"
-                ].map((topics, index) => (
-                  <div key={index} className="flex items-center gap-2 mb-1   ">
-                     <BsDot className="flex items-center bg-[#242120] text-xs rounded-full text-[#242120] " />
-                     <h1 className="md:text-base text-sm ">{topics}</h1>
-                  </div>
-                ))}
-              </div>
+                    "IoT Digital Twins", "IoT in Transport", "IoT Supply Chain", "IoT for Environment", "Blockchain in IoT", "IoT Precision Medicine", "Smart Transactions IoT", "IoT Energy Management", "Quantum IoT"
+                  ].map((topics, index) => (
+                    <div key={index} className="flex items-center gap-2 mb-1   ">
+                      <BsDot className="flex items-center bg-[#242120] text-xs rounded-full text-[#242120] " />
+                      <h1 className="md:text-base text-sm ">{topics}</h1>
+                    </div>
+                  ))}
+                </div>
               </div>
             </section>
             <section className="flex flex-col gap-4">
@@ -74,7 +74,7 @@ function Home() {
               <p className=" text-center">The International Journal of Embedded Systems and IoT (IJESIOT) is a multidisciplinary, peer-reviewed, open-access journal committed to publishing high-quality research on embedded systems, the Internet of Things (IoT), and their innovative applications. The journal aims to foster advancements in smart embedded technologies, real-time computing, and secure IoT solutions that drive automation, connectivity, and intelligence across various industries.</p>
               <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-5 grid-cols-1  ">
                 <div className=" border-2 border-[#D3A66F]   rounded-xl bg-[#D9D9D9]  ">
-                    <div className=" p-4 flex flex-col gap-2">
+                  <div className=" p-4 flex flex-col gap-2">
                     <div className="flex items-center gap-3">
                       <i class="fi fi-sr-check-circle flex items-center text-xl text-[#28a745]"></i>
                       <h2 className="text-[#242120] font-bold merry md:text-lg ">Open Access</h2>
