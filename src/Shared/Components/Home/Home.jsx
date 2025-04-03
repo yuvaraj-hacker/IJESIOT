@@ -116,6 +116,7 @@ function Home() {
           <h1 className="bg-[#242120] h-[1px] w-full  "></h1>
         </section> */}
       </section>
+      
       <section className="bg-[#242120] text-white border-b border-b-[#D3A66F]">
         <div className="text-center flex flex-col gap-2 xl:w-1/2 mx-auto  md:px-5 px-3 py-5  ">
           <p className="  md:text-base text-sm text-justify">

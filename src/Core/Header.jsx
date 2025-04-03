@@ -129,8 +129,8 @@ const Header = () => {
             <Link to="/">
               <div className="    ">
                 <div className="   text-center   ">
-                  <p className="  font-bold text-[#D3A66F] md:text-4xl text-2xl" >IJESIOT</p>
-                  {/* <img className="  p-2 font-bold text-[#242120]" src="/assets/Images/IJARTA-New.png" alt="" /> */}
+                  {/* <p className="  font-bold text-[#D3A66F] md:text-4xl text-2xl" >IJESIOT</p> */}
+                  <img className="  p-2 font-bold text-[#242120] w-40" src="/assets/Images/IJESIOT.png" alt="" />
                 </div>
               </div>
             </Link>

@@ -8,8 +8,8 @@ const Footer = () => {
         <div className="grid grid-cols-1  md:grid-cols-4 sm:grid-cols-2 md:gap-8 gap-4">
           <div className='text-center md:text-left flex flex-col gap-4 justify-between'>
             <Link to='/'>
-              <p className=" font-bold md:text-2xl ">IJESIOT</p>
-              {/* <img className='bg-white p-2 w-40 md:mx-0   mx-auto' src="/assets/Images/IJESIOT.png" alt="" /> */}
+              {/* <p className=" font-bold md:text-2xl ">IJESIOT</p> */}
+              <img className='  w-40 md:mx-0   mx-auto' src="/assets/Images/IJESIOT.png" alt="" />
             </Link>
             <div className='flex flex-col justify-center md:items-start items-center md:text-left lg:text-base text-sm'>
               <div className='flex gap-3 items-center'>
@@ -63,7 +63,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <h1 className="bg-[#D3A66F] h-[1px] max-w-[92rem] mx-auto  "></h1>
+      <h1 className="bg-[#D3A66F] h-[1px]   mx-auto  "></h1>
       <div className='grid lg:grid-cols-3 grid-cols-1  items-center    py-3  '>
         <div>
         </div>
